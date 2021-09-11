@@ -271,7 +271,10 @@ ul{
     justify-content: space-between;
     margin-bottom: 30px;
 }
-
+.card-list a{
+    color:black;
+    text-decoration: none;
+}
 
 /* /. */
 .card2-head,.card-head,.card-footer{
