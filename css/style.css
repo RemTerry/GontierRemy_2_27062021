@@ -460,15 +460,12 @@ ul{
      padding: 20px 40px 20px 30px;
  }
 
- .footer ul li{
+ .footer ul li a{
     list-style: none;
     padding-bottom: 10px;
-
- }
-
- .footer-list a{
     color:black;
     text-decoration: none;
+
  }
 
  .footer ul{
