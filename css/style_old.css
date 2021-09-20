@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 
@@ -29,17 +30,15 @@ body,button{
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);   
     border-radius: 20px; 
 }
-
 .card:hover,.card2:hover,.activite-card__short:hover,.activite-card__long:hover{
-    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.2); 
-    cursor: pointer;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.2);   
+    cursor:pointer; 
 }
 
 .header,.filtres,#heberge,#activite{
     width: 95%;
     margin: auto;    
 }
-
 
 /*****STYLE GLOBAL********/
 
@@ -67,7 +66,6 @@ body,button{
     display: inline-block;
 }
 
-
 .header nav ul li a{
     color: black;
     text-align: center;
@@ -86,7 +84,6 @@ body,button{
     /* border: 2px solid red; */
 }
 
-
 .header nav ul li,#footer ul li{
     list-style: none;
     margin: 0;
@@ -97,7 +94,6 @@ ul{
     margin: 0;
     padding: 0;
 }
-
 
 .header nav ul{
     display: flex;
@@ -117,6 +113,7 @@ ul{
 /****** Fin Entete *******/
 
 /****** Debut filtre *****/
+
 .txt-rech{
     display: flex;
     justify-content: flex-start;
@@ -143,13 +140,13 @@ ul{
     border-radius: 0;
     border:0.5px solid var(--color-gris);
     padding:  0 15px;
-    width: 250px;
 }
 
-::placeholder,::-moz-placeholder,::-webkit-input-placeholder{
+::placeholder{
     color: black;
     font-weight: bold;
 }
+
 
 .txt-rech .btn-imput{
     border: none;
@@ -218,7 +215,6 @@ ul{
     border-radius: 0 20px 20px 0;
     height: 37px;
     line-height: 37px;
-    font-weight: bold;
 }
 
 .grp-filter a{
@@ -275,17 +271,12 @@ ul{
     justify-content: space-between;
     margin-bottom: 30px;
 }
-
-.card-list a,.card2-list a,.footer a{
+.card-list a{
+    color:black;
     text-decoration: none;
-    color: black;
 }
 
-
-/* cardre */
-
-
-
+/* /. */
 .card2-head,.card-head,.card-footer{
     margin: 0 10px 0 10px;
 }
@@ -299,11 +290,8 @@ ul{
     margin: 0 10px 0 10px;
 }
 
-
-
-
 .card img{  
-    height: 120px;
+    height: 100px;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
@@ -345,8 +333,8 @@ ul{
 }
 
 .card2 img{
-    width: 130px;
-    height: 140px;
+    width: 110px;
+    height: 120px;
     object-fit: cover;
     border-radius: 20px 0 0 20px ;
 }
@@ -397,6 +385,7 @@ ul{
     /* border: 1px solid black; */
 }
 
+
 .activite-card__short .card-title, .activite-card__long .card-title{
     /* display: flex;
     align-items: center; */
@@ -407,64 +396,62 @@ ul{
 }
 
 .activite-card__short{
-    height: 240px;
+    height: 180px;
     margin-bottom: 20px;
 }
 
 .activite-card__short img{
     width: 100%;
-    height: 200px;
+    height: 140px;
     border-radius:20px 20px 0 0;
     object-fit: cover;
 }
 
 
-.activite-card__short--height-long{
-    height: 280px;
-}
-
-.activite-card__short--height-long img{
-    height: 240px;
-}
-
-.activite-card__short--height-short{
-    height: 200px;
-}
-
-.activite-card__short--height-short img{
-    height: 160px;
-}
 
 
 .activite-card__short--height-long2{
-    height: 260px;
+    height: 200px;
 }
 
 .activite-card__short--height-long2 img{
-    height: 220px;
+    height: 160px;
 }
 
 .activite-card__short--height-short2{
-    height: 220px;
+    height: 160px;
 }
 
 .activite-card__short--height-short2 img{
+    height: 120px;
+}
+.activite-card__short--height-long{
+    height: 220px;
+}
+
+.activite-card__short--height-long img{
     height: 180px;
 }
 
+.activite-card__short--height-short{
+    height: 140px;
+}
 
-
+.activite-card__short--height-short img{
+    height: 100px;
+}
 
 .activite-card__long img{
     width: 100%;
-    height: 460px;
+    height: 340px;
     border-radius:20px 20px 0 0;
     object-fit: cover;
 }
 
 .activite-card__long{
-    height: 500px;
+    height: 380px;
 }
+
 /******Fin activité ******/
 
 /******Début Footer ******/
@@ -478,6 +465,16 @@ ul{
  .footer ul li{
     list-style: none;
     padding-bottom: 10px;
+    color:black;
+    text-decoration: none;
+
+ }
+
+ .footer ul li a{
+    
+    color:black;
+    text-decoration: none;
+
  }
 
  .footer ul{
@@ -525,7 +522,6 @@ ul{
          width: 100%; 
     }
 
-   
     .card2{
         margin: 0 10px 20px 5px;
     }
@@ -533,10 +529,7 @@ ul{
     .card2-list{
         display: flex;
     }
-    .card2-list img{
-        width: 110px;
-    }
-
+    
     div.header--height-mob.header--height, div.header--height-mob.header--height a{
         height: 40px;
         line-height: 40px;
@@ -610,7 +603,6 @@ ul{
         flex-direction: column;
     }
     
-
     .activite-card{
         width: 100%;
         margin: 0;
@@ -626,7 +618,6 @@ ul{
         margin: 0;
     }
 
-    
 }
 
  /**** Smartphone ****/
@@ -649,11 +640,6 @@ ul{
         margin: 0 20px 0 20px;
     }
 
-    .txt-rech .btn-imput{
-        border-radius:10px;
-        margin-left: -5px;
-    }
-
     .btn-imput .label{
         display: none;
     }
@@ -667,16 +653,12 @@ ul{
         margin-bottom: 5px;
     }
 
-    .activite-card__long img,.activite-card__short img{
+    .activite-card__long img{
         height: 140px;
     }
 
     .activite-card{
         flex-direction: column;
-    }
-
-    .activite-card__short{
-        height: 180px;
     }
 
     .activite-card__long{
@@ -688,10 +670,4 @@ ul{
         ma
     } */
 
-}
-
-@media all and (max-width: 767px){
-    .txt-rech .txt-imput-text{
-        width: 200px;
-    }
 }
